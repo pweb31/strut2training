@@ -11,7 +11,8 @@
 <body>
  <!-- Pour créer un lien avec struts, on peut utiliser url -->
   <!-- Action qui va me ramener vers produits dans le namespace produits -->
-<s:url namespace="/" action="produits"></s:url>
-<s:a></s:a>
+<s:url namespace="/" action="produits" var="lien1"></s:url>
+<!--Pour créer un lien hypertext -->
+<s:a href="%{lien1}">Produit</s:a>
 </body>
 </html>

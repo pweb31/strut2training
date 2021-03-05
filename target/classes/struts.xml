@@ -12,6 +12,8 @@
         <action name="index">
         	<result>views/index.jsp</result>
         </action>
-
+		<action name="produits" class="com.id.web.ProduitAction" method="index">
+			<result name="success">views/Produits.jsp</result>
+		</action>
     </package>
 </struts>
