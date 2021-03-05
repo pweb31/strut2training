@@ -5,17 +5,17 @@
 <validators>
 	<field name="produit.reference">
 		<field-validator type="requiredstring">
-			<message key="reference.obligatoire"></message>
+			<message key="reference.obligatoire"/>
 		</field-validator>
 		<field-validator type="stringlength">
 			<param name="minlength">3</param>
 			<param name="maxlength">10</param>
-			<message key="produit.reference.invalide"></message>
+			<message key="reference.invalide"/>
 		</field-validator>
 	</field>
 	<field name="produit.designation">
 		<field-validator type="requiredstring">
-			<message>Obligatoire</message>
+			<message key="designation.obligatoire"/>
 		</field-validator>
 	</field>
 </validators>
