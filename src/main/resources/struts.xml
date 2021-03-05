@@ -15,5 +15,14 @@
 		<action name="produits" class="com.id.web.ProduitAction" method="index">
 			<result name="success">views/Produits.jsp</result>
 		</action>
+		<action name="save" class="com.id.web.ProduitAction" method="save">
+			<result name="success">views/Produits.jsp</result>
+		</action>
+		<action name="delete" class="com.id.web.ProduitAction" method="delete">
+			<result name="success">views/Produits.jsp</result>
+		</action>
+		<action name="edit" class="com.id.web.ProduitAction" method="edit">
+			<result name="success">views/Produits.jsp</result>
+		</action>
     </package>
 </struts>
